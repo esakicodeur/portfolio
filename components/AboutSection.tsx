@@ -19,7 +19,7 @@ const skills = [
     { skill: "Docker" },
 ];
 
-function AboutSection() {
+const AboutSection = () => {
   return (
     <section id='about'>
         <div className='my-12 pb-12 md:pt-16 md:pb-48'>
@@ -69,7 +69,7 @@ function AboutSection() {
                             return <p key={idx} className='bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 font-semibold rounded'>{item.skill}</p>
                         })}
                     </div>
-                    <div className='flex flex-row'>
+                    <div className='flex flex-row  mt-2'>
                         <div className='w-1/2'>
                             <Image src="/static_assets.png" alt='' width={400} height={400} />
                         </div>
