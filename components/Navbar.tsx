@@ -57,7 +57,7 @@ const Navbar = () => {
                                     <Link
                                         key={idx}
                                         to={item.page}
-                                        className={`block lg:inline-block `}
+                                        className={`block lg:inline-block`}
                                         activeClass="active"
                                         spy={true}
                                         smooth={true}
